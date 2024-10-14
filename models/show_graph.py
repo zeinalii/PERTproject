@@ -84,4 +84,4 @@ def show_graph(filename):
                                  font_size =6,
                                  label_pos=0.5)
     plt.show()
-
+    plt.savefig("graph.png")
